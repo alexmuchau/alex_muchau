@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  
+  color: #0F1E48;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #0F1E48;
+
+  padding: 2rem;
+
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+header img {
+  max-width: 7rem;
+  position: absolute;
+  top: 1rem;
+
+  z-index: 10;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 8rem;
+
+  display: flex;
+  gap: 2rem
+}
+  
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C7FE00;
+  font-weight: 800;
+
+  transition: all 0.2s;
+}

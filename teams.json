@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Botafogo",
+    "colors": ["#000", "#ffffff"],
+    "img_src": "./assets/Times/Botafogo.png",
+    "position": 1
+  },
+  {
+    "name": "Bragantino",
+    "colors": ["#D30941", "#ffffff"],
+    "img_src": "./assets/Times/Bragantino.png",
+    "position": 2
+  },
+  {
+    "name": "Corinthians",
+    "colors": ["#000", "#ffffff"],
+    "img_src": "./assets/Times/Corinthians.png",
+    "position": 3
+  },
+  {
+    "name": "Grêmio",
+    "colors": ["#0284BA"],
+    "img_src": "./assets/Times/Gremio.png",
+    "position": 4
+  },
+  {
+    "name": "Palmeiras",
+    "colors": ["#09693E", "#ffffff"],
+    "img_src": "./assets/Times/Palmeiras.png",
+    "position": 5
+  },
+  {
+    "name": "Flamengo",
+    "colors": ["#C72D1A", "#000"],
+    "img_src": "./assets/Times/Flamengo.png",
+    "position": 6
+  },
+  {
+    "name": "Fortaleza",
+    "colors": ["#3267A6", "#D23418"],
+    "img_src": "./assets/Times/Fortaleza.png",
+    "position": 7
+  },
+  {
+    "name": "Fluminense",
+    "colors": ["#086E46", "#A20A36"],
+    "img_src": "./assets/Times/Fluminense.png",
+    "position": 8
+  },
+  {
+    "name": "Athletico-PR",
+    "colors": ["#C8102E", "#2D2926"],
+    "img_src": "./assets/Times/Athletico-PR.png",
+    "position": 9
+  },
+  {
+    "name": "Atlético-MG",
+    "colors": ["#080808", "#ffffff"],
+    "img_src": "./assets/Times/Atlético-MG.png",
+    "position": 10
+  },
+  {
+    "name": "São Paulo",
+    "colors": ["#CE2E45", "#ffffff"],
+    "img_src": "./assets/Times/SãoPaulo.png",
+    "position": 11
+  },
+  {
+    "name": "Cuiabá",
+    "colors": ["#FFDC09", "#0A6E3A"],
+    "img_src": "./assets/Times/Cuiabá.png",
+    "position": 12
+  },
+  {
+    "name": "Internacional",
+    "colors": ["#EF352B", "#ffffff"],
+    "img_src": "./assets/Times/Internacional.png",
+    "position": 13
+  },
+  {
+    "name": "Santos",
+    "colors": ["#000", "#ffffff"],
+    "img_src": "./assets/Times/Santos.png",
+    "position": 14
+  },
+  {
+    "name": "Cruzeiro",
+    "colors": ["#0A56B6", "#ffffff"],
+    "img_src": "./assets/Times/Cruzeiro.png",
+    "position": 15
+  },
+  {
+    "name": "Bahia",
+    "colors": ["#FD3743", "#ffffff"],
+    "img_src": "./assets/Times/Bahia.png",
+    "position": 16
+  },
+  {
+    "name": "Vasco",
+    "colors": ["#000", "#ffffff"],
+    "img_src": "./assets/Times/Vasco.png",
+    "position": 17
+  },
+  {
+    "name": "Goiás",
+    "colors": ["#084F25", "#ffffff"],
+    "img_src": "./assets/Times/Goiás.png",
+    "position": 18
+  },
+  {
+    "name": "Coritiba",
+    "colors": ["#0D6156", "#ffffff"],
+    "img_src": "./assets/Times/Coritiba.png",
+    "position": 19
+  },
+  {
+    "name": "América-MG",
+    "colors": ["#087648", "#ffffff"],
+    "img_src": "./assets/Times/América-MG.png",
+    "position": 20
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
