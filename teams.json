@@ -19,7 +19,7 @@
   },
   {
     "name": "Grêmio",
-    "colors": ["#0284BA"],
+    "colors": ["#0284BA", "#ffffff", "#1E1814"],
     "img_src": "./assets/Times/Gremio.png",
     "position": 4
   },
@@ -31,19 +31,19 @@
   },
   {
     "name": "Flamengo",
-    "colors": ["#C72D1A", "#000"],
+    "colors": ["#C72D1A", "#000", "#fff"],
     "img_src": "./assets/Times/Flamengo.png",
     "position": 6
   },
   {
     "name": "Fortaleza",
-    "colors": ["#3267A6", "#D23418"],
+    "colors": ["#3267A6", "#D23418", "#ffff"],
     "img_src": "./assets/Times/Fortaleza.png",
     "position": 7
   },
   {
     "name": "Fluminense",
-    "colors": ["#086E46", "#A20A36"],
+    "colors": ["#086E46", "#ffff", "#A20A36"],
     "img_src": "./assets/Times/Fluminense.png",
     "position": 8
   },
@@ -61,7 +61,7 @@
   },
   {
     "name": "São Paulo",
-    "colors": ["#CE2E45", "#ffffff"],
+    "colors": ["#FE0000", "#ffffff", "#000000"],
     "img_src": "./assets/Times/SãoPaulo.png",
     "position": 11
   },
@@ -91,7 +91,7 @@
   },
   {
     "name": "Bahia",
-    "colors": ["#FD3743", "#ffffff"],
+    "colors": ["#ED3237", "#006CB5", "#ffffff"],
     "img_src": "./assets/Times/Bahia.png",
     "position": 16
   },

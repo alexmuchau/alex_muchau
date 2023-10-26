@@ -4,9 +4,30 @@ async function getTeamsData() {
 }
 
 function generateTeamDiv(name, colors, img_src, position) {
-  var style = document.createElement('style');
-  style.innerHTML = `
-    .${name}-colors {
+  let style = document.createElement('style');
+  console.log(name.split(' ').filter(Boolean).join(''))
+  const colorsClass = name.split(' ').filter(Boolean).join('') + '-colors'
+  style.innerHTML = colors.length > 2
+  ? `
+    .${colorsClass} {
+      position: relative;
+      bottom: -20px;
+      height: 20px;
+      width: 100px;
+      background: repeating-linear-gradient(
+        90deg,
+        ${colors[0]},
+        ${colors[0]} 33px,
+        ${colors[1]} 33px,
+        ${colors[1]} 66px,
+        ${colors[2]} 66px,
+        ${colors[2]} 100px
+      );
+      border: solid 1px ${colors[0]}
+    }
+  `
+  : `
+    .${colorsClass} {
       position: relative;
       bottom: -20px;
       height: 20px;
@@ -32,7 +53,7 @@ function generateTeamDiv(name, colors, img_src, position) {
           <p>${position}º Posição</p>
         </div>
       </div>
-      <div class="${name}-colors">&nbsp;</div>
+      <div class="${colorsClass}">&nbsp;</div>
     </div>
   `
 }

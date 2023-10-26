@@ -44,9 +44,12 @@
     grid-template-columns: auto auto auto;
   }
 
+  .team {
+    width: 33vw;
+  }
+
   .team:hover {
-    padding: 6rem 8rem;
-    opacity: 0.8;
+    width: 50vw;
   }
 }
 
@@ -55,8 +58,11 @@
     grid-template-columns: auto auto;
   }
 
+  .team {
+    width: 50vw;
+  }
+
   .team:hover {
-    padding: 6rem 8rem;
-    opacity: 0.8;
+    width: 75vw;
   }
 }
