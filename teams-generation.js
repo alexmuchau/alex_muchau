@@ -1,11 +1,14 @@
+// -----------> BUSCA DADOS DOS TIMES -----------------
 async function getTeamsData() {
   return fetch('./teams.json')
     .then((response) => response.json())
 }
 
+// -----------> CRIA ESTILIZAÇÃO E DIV DO TIME --------
 function generateTeamDiv(name, colors, img_src, position) {
   let style = document.createElement('style');
-  console.log(name.split(' ').filter(Boolean).join(''))
+
+  // ----> NORMALIZAÇÃO DOS NOMES, EX: Sao Paulo -> SaoPaulo
   const colorsClass = name.split(' ').filter(Boolean).join('') + '-colors'
   style.innerHTML = `
     .${colorsClass} {
@@ -49,11 +52,16 @@ function generateTeamDiv(name, colors, img_src, position) {
   `
 }
 
+// ----> ENCONTRA O CONTAINER DO CATÁLOGO
 const teams_div = document.getElementById('teams-container');
 
+// -----------> INICIA BUSCA DOS DADOS ----------------
 getTeamsData().then((data) => {
-  console.log(data)
+  // DEBUG
+  // console.log(data)
 
+
+  // ----> ITERA SOBRE TODOS OS TIMES
   for (const team of data) {
     generateTeamDiv(team.name, team.colors, team.img_src, team.position);
   }
