@@ -12,8 +12,6 @@ function generateTeamDiv(name, colors, img_src, position) {
   const colorsClass = name.split(' ').filter(Boolean).join('') + '-colors'
   style.innerHTML = `
     .${colorsClass} {
-      position: relative;
-      bottom: -20px;
       height: 20px;
       width: 100px;
       background: repeating-linear-gradient(

@@ -1,9 +1,8 @@
 .team {
   display: flex;
-  width: 25vw;
-  height: 25vh;
+  width: 100%;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
@@ -19,15 +18,20 @@
 }
 
 .team:hover {
-  /* padding: 8rem 10rem; */
-  width: 35vw;
-  border: 1px solid #C7FE00;
+  z-index: 20;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border: 0;
 }
 
 .teams-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  height: 100vh;
+  overflow: hidden;
 }
+
+
 
 .team-text {
   display: flex;
@@ -39,17 +43,40 @@
   gap: 0.5rem;
 }
 
+.alert {
+  position: fixed;
+  bottom: 1rem;
+  z-index: 99;
+  background-color: #0F1E48;
+  color: white;
+  padding: 1rem;
+}
+
+  
+.alert a {
+  color: #C7FE00;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.alert a:hover {
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
 @media (max-width: 1020px) {
   .teams-container {
     grid-template-columns: auto auto auto;
   }
 
   .team {
-    width: 33vw;
+    padding: 1rem 0;
   }
 
-  .team:hover {
-    width: 50vw;
+  .alert {
+    text-align: center;
+    position: relative;
+    margin: 2rem 0;
   }
 }
 
@@ -57,12 +84,5 @@
   .teams-container {
     grid-template-columns: auto auto;
   }
-
-  .team {
-    width: 50vw;
-  }
-
-  .team:hover {
-    width: 75vw;
-  }
 }
+
