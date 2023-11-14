@@ -3,31 +3,31 @@
     "name": "Botafogo",
     "colors": ["#000", "#ffffff"],
     "img_src": "./assets/Times/Botafogo.png",
-    "position": 1
+    "position": 2
   },
   {
     "name": "Bragantino",
     "colors": ["#D30941", "#ffffff"],
     "img_src": "./assets/Times/Bragantino.png",
-    "position": 2
+    "position": 4
   },
   {
     "name": "Corinthians",
     "colors": ["#000", "#ffffff"],
     "img_src": "./assets/Times/Corinthians.png",
-    "position": 3
+    "position": 11
   },
   {
     "name": "Grêmio",
     "colors": ["#0284BA", "#ffffff", "#1E1814"],
     "img_src": "./assets/Times/Gremio.png",
-    "position": 4
+    "position": 3
   },
   {
     "name": "Palmeiras",
     "colors": ["#09693E", "#ffffff"],
     "img_src": "./assets/Times/Palmeiras.png",
-    "position": 5
+    "position": 1
   },
   {
     "name": "Flamengo",
@@ -39,7 +39,7 @@
     "name": "Fortaleza",
     "colors": ["#3267A6", "#D23418", "#ffff"],
     "img_src": "./assets/Times/Fortaleza.png",
-    "position": 7
+    "position": 12
   },
   {
     "name": "Fluminense",
@@ -51,25 +51,25 @@
     "name": "Athletico-PR",
     "colors": ["#C8102E", "#2D2926"],
     "img_src": "./assets/Times/Athletico-PR.png",
-    "position": 9
+    "position": 7
   },
   {
     "name": "Atlético-MG",
     "colors": ["#080808", "#ffffff"],
     "img_src": "./assets/Times/Atlético-MG.png",
-    "position": 10
+    "position": 5
   },
   {
     "name": "São Paulo",
     "colors": ["#FE0000", "#ffffff", "#000000"],
     "img_src": "./assets/Times/SãoPaulo.png",
-    "position": 11
+    "position": 10
   },
   {
     "name": "Cuiabá",
     "colors": ["#FFDC09", "#0A6E3A"],
     "img_src": "./assets/Times/Cuiabá.png",
-    "position": 12
+    "position": 9
   },
   {
     "name": "Internacional",
@@ -87,7 +87,7 @@
     "name": "Cruzeiro",
     "colors": ["#0A56B6", "#ffffff"],
     "img_src": "./assets/Times/Cruzeiro.png",
-    "position": 15
+    "position": 17
   },
   {
     "name": "Bahia",
@@ -99,7 +99,7 @@
     "name": "Vasco",
     "colors": ["#000", "#ffffff"],
     "img_src": "./assets/Times/Vasco.png",
-    "position": 17
+    "position": 15
   },
   {
     "name": "Goiás",

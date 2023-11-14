@@ -57,7 +57,7 @@ const teams_div = document.getElementById('teams-container');
 getTeamsData().then((data) => {
   // DEBUG
   // console.log(data)
-
+  data.sort((t1, t2) => t1.position - t2.position)
 
   // ----> ITERA SOBRE TODOS OS TIMES
   for (const team of data) {
